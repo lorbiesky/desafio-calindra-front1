@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { SCREEN_SIZES } from "../utils/window_sizes";
 
 export const Container = styled.div`
+  position: relative;
   align-items: center;
   justify-content: center;
 `;
@@ -40,6 +41,7 @@ export const YellowTapeImage = styled.img`
 export const TextContainer = styled.div`
   width: 455px;
   display: flex;
+  padding-left: 20px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;

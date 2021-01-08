@@ -4,8 +4,6 @@ import { HiOutlineDotsVertical } from "react-icons/hi";
 import * as S from "./styles";
 
 function Header() {
-  const handleMenu = () => {};
-
   return (
     <S.Container>
       <S.LogoContainer>
@@ -17,7 +15,7 @@ function Header() {
           <S.LogoSubtitle src="/assets/LogoSubtitle.png" />
         </S.LogoTextContainer>
       </S.LogoContainer>
-      <S.MenuContainer onClick={handleMenu}>
+      <S.MenuContainer>
         <HiOutlineDotsVertical size="50px" color="#E2E0B8" />
       </S.MenuContainer>
 
