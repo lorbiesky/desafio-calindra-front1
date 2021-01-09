@@ -30,7 +30,6 @@ export const MainItemContainer = styled.div`
 
 export const YellowTapeImage = styled.img`
   width: 455px;
-
   transition: width 0.6s;
 
   @media (min-width: ${SCREEN_SIZES.lg}) {

@@ -13,9 +13,9 @@ export const Container = styled.div`
   transition: grid-gap 0.6s;
 
   @media (min-width: ${SCREEN_SIZES.lg}) {
-    padding: 100px 200px;
     grid-gap: 200px;
     flex-direction: row;
+    padding: 100px 200px;
     justify-content: flex-start;
   }
 `;
