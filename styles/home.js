@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { SCREEN_SIZES } from "../utils/window_sizes";
 
 export const Container = styled.div`
+  width: 100vw;
+  height: 100vh;
   position: relative;
   align-items: center;
   justify-content: center;
