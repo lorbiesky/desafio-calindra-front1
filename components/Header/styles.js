@@ -90,7 +90,7 @@ export const MenuItem = styled.div`
   }
 `;
 
-export const MenuItemText = styled.text`
+export const MenuItemText = styled.span`
   color: #846219;
   font-size: 17px;
   font-weight: 300;

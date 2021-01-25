@@ -33,14 +33,14 @@ export const SocialMediaContainer = styled.div`
   }
 `;
 
-export const SocialMediaTitle = styled.text`
+export const SocialMediaTitle = styled.span`
   color: #716565;
   font-size: 37px;
   font-weight: 700;
   font-family: "Roboto Condensed";
 `;
 
-export const SocialMediaSubtitle = styled.text`
+export const SocialMediaSubtitle = styled.span`
   color: #716565;
   font-size: 27px;
   font-weight: 400;

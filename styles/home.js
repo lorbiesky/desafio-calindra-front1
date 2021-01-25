@@ -48,7 +48,7 @@ export const TextContainer = styled.div`
   align-items: flex-start;
 `;
 
-export const MainItemText = styled.text`
+export const MainItemText = styled.span`
   color: #716565;
   font-size: 80px;
   font-weight: 700;
@@ -89,14 +89,14 @@ export const SecondTextContainer = styled.div`
   }
 `;
 
-export const SecondTextTitle = styled.text`
+export const SecondTextTitle = styled.span`
   color: white;
   font-size: 60px;
   font-weight: 700;
   font-family: "Roboto Condensed";
 `;
 
-export const SecondTextSubtitle = styled.text`
+export const SecondTextSubtitle = styled.span`
   color: white;
   font-size: 40px;
   font-weight: 300;
